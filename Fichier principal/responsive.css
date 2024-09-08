@@ -1,0 +1,255 @@
+/* ##################################################################################################################"
+#################################################### RESPONSIVE ######################################################
+#################################################################################################################### */
+
+
+
+@media only screen and (min-width:992px) and (max-width: 1199px) {
+    .expertise{
+       padding: 1px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .expertise .expertise-text h1{
+        padding-left: 0;
+        padding-top: 60px;
+        font-size: 80px;
+        width: 100%;
+        text-align: center;
+      
+    }
+
+    .expertise .expertise-text{
+        padding: 1px;
+        width: 100vh;
+        left: 0;
+
+
+    }
+
+    .localisation{
+        display: grid;
+        column-count: 1;
+        flex-wrap: wrap;
+    }
+
+    #info-qauche iframe{
+        text-align: center;
+        width:100vh;
+        height:60vh;
+    }
+
+
+   
+
+    #info-droit{
+        padding-top: 30px;
+        
+    }
+
+    #info-droit button{
+        text-align: center;
+    }
+
+
+
+    /*  statistique */
+
+
+    .loading-container{
+        justify-content: space-around;
+        column-gap: 2;
+        flex-wrap: wrap;   
+    }
+
+    .enligne{
+        justify-content: space-around;
+        column-gap: 3;
+        flex-wrap: wrap; 
+    }
+
+    .certification {
+        box-shadow: 0 4rem 9rem rgba(0, 0, 0, .5);
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border:none;
+        border-radius: 20px;
+        width: 90%;
+        height: 80vh;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+
+
+
+   
+}
+
+
+@media only screen and (min-width:768px) and (max-width: 991px) {
+
+    .loading-container{
+        justify-content: space-around;
+        column-gap: 2;
+        flex-wrap: wrap;   
+    }
+
+
+    .expertise-text{
+        width: auto;
+        padding: 0;
+    }
+
+
+    .enligne{
+        display: flex;
+        
+       
+        justify-content: space-around;
+        flex-wrap: wrap; 
+        
+       
+    }
+    .enligne .card{
+        width: 50%;
+    }
+   
+  
+   
+
+    #info-qauche iframe{
+        width: 100%;
+        text-align: center;
+       
+        height:60vh;
+    }
+
+
+    #info-droit{
+        padding-top: 30px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    /* .localisation{
+        display: grid;
+        column-count: 1;
+        flex-wrap: wrap;
+    } */
+
+    .localisation{
+        padding: none;
+        display: block;
+        column-count: 1;
+        flex-wrap: wrap;
+    }
+    .localisation iframe{
+        width:100%;
+    }
+
+   
+    #marquee{
+        height:60%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+@media only screen and (max-width:767px){
+    .expertise{
+        padding: 8px;
+    }*
+
+    .statis1{
+        padding-bottom: 20px;
+    }
+    #info-qauche{
+        
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .h1{
+        font-size: 60px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+
+    #info-qauche iframe{
+        width: 100%;
+        height: 50vh;
+    }
+
+
+    #info-droit{
+        text-align: center;
+    }
+
+    .enligne{
+       
+        display: block;
+        column-count: 1;
+        flex-wrap: wrap;
+    }
+    .enligne .card{
+
+        justify-content: center;
+        margin: auto;
+    }
+
+    .localisation{
+        padding: none;
+        display: block;
+        column-count: 1;
+        flex-wrap: wrap;
+    }
+    .localisation iframe{
+        width:100%;
+    }
+
+    #certification{
+        margin-top: 20px;
+        font-size: 50px;
+        padding: 10px;
+
+    }
+    .certification{
+        width: auto;
+
+    }
+    .certification .scrollamount{
+        display: none;
+    }
+
+    .localisation-h1{
+        font-size: 7rem;
+    }
+    #marquee h1{
+        padding-top: 20px;
+        font-size: 50px;
+        text-align: center;
+        padding: 10px;
+       
+    }
+    
+}
+
+
+
+
+
+

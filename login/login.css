@@ -1,0 +1,75 @@
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+
+.border-md {
+    border-width: 2px;
+    background: rgba(54, 95, 85 ,0.9);
+}
+
+.btn-facebook {
+    background: rgba(54, 95, 85 ,0.9);
+    border: none;
+}
+
+.btn-facebook:hover, .btn-facebook:focus {
+    background: rgba(54, 95, 85 ,0.9);
+}
+
+.btn-twitter {
+    background: rgba(54, 95, 85 ,0.9);
+    border: none;
+}
+
+.btn-twitter:hover, .btn-twitter:focus {
+    background: rgba(54, 95, 85 ,0.9);
+}
+
+
+
+/*
+*
+* ==========================================
+* FOR DEMO PURPOSES
+* ==========================================
+*
+*/
+
+body {
+    min-height: 100vh;
+}
+
+.form-control:not(select) {
+    padding: 1.5rem 0.5rem;
+}
+
+select.form-control {
+    height: 52px;
+    padding-left: 0.5rem;
+}
+
+.form-control::placeholder {
+    color: #ccc;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+.form-control:focus {
+    box-shadow: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  
