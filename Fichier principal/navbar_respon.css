@@ -18,7 +18,7 @@
 }
 
 /* Styles pour les petits écrans (mobiles) */
-@media (max-width: 1200px) {
+@media (max-width: 1400px) {
     .menu-icon {
         display: flex;
         justify-content: center;
